@@ -1,4 +1,23 @@
 <?php
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDyfB9UP-RmZLdf0pW3KJhLBSRok5itPzU",
+  authDomain: "mrashed-me.firebaseapp.com",
+  projectId: "mrashed-me",
+  storageBucket: "mrashed-me.appspot.com",
+  messagingSenderId: "295257431828",
+  appId: "1:295257431828:web:9806f8175bdcdf4c22ec01",
+  measurementId: "G-3C9J734R29"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'rased.cse.2016@gmail.com';
 
