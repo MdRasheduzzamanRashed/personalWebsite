@@ -1027,7 +1027,7 @@ section .container {
   left: 0;
   bottom: 0;
   padding: 15px;
-  text-align: right;
+  text-align: left;
   font-size: 13px;
   color: #fff;
   z-index: 999999;
